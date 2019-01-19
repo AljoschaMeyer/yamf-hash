@@ -13,3 +13,5 @@ A yamf-hash is a pair of a numeric identifier for a hash function, and a hash di
 ## Binary Encoding
 
 The binary encoding of a yamf-hash is the binary [stlv](https://github.com/AljoschaMeyer/stlv) encoding with the numeric id from the above table as the type, and the digest as the value.
+
+A *canonic binary yamf-hash* uses the canonic binary encoding of the stlv.
