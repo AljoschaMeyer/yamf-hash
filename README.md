@@ -6,9 +6,9 @@ Self-describing cryptographic hashes. Unlike the [multiformats](https://github.c
 
 A yamf-hash is a pair of a numeric identifier for a hash function, and a hash digest. The currently supported functions:
 
-| Hash Function | Numeric Id | Digest Length (Bytes) |
-|---------------|------------|-----------------------|
-| Blake2b       | 0          | 64                    |
+| Hash Function                                  | Numeric Id | Digest Length (Bytes) |
+|------------------------------------------------|------------|-----------------------|
+| [Blake2b](https://tools.ietf.org/html/rfc7693) | 0          | 64                    |
 
 ## Binary Encoding
 
