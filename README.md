@@ -9,6 +9,7 @@ A yamf-hash is a pair of a numeric identifier for a hash function, and a hash di
 | Hash Function                                  | Numeric Id | Digest Length (Bytes) |
 |------------------------------------------------|------------|-----------------------|
 | [Blake2b](https://tools.ietf.org/html/rfc7693) | 0          | 64                    |
+| [SHA256](https://tools.ietf.org/html/rfc4634)  | 1          | 32                    |
 
 ## Binary Encoding
 
